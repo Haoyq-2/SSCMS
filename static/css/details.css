@@ -1,0 +1,32 @@
+ul.course-details {
+    margin: 20px;
+    list-style: none;
+    padding: 0 20px;
+}
+
+li.course-detail {
+    min-height: 24px;
+    padding: 2px;
+    border: 1px solid rgba(198 226 255);
+}
+
+li.course-detail .detail-name {
+    display: inline-block;
+    vertical-align: top;
+    width: 150px;
+    font-weight: bolder;
+    color: #eeeeee;
+}
+
+li.course-detail span.course-schedules {
+    display: inline-block;
+}
+
+ul.course-details li:nth-child(odd) {
+    /*background: rgba(0, 0, 0, 0.3);*/
+}
+
+ul.course-details li:nth-child(even) {
+    /*background: rgba(0, 0, 0, 0.3);*/
+}
+

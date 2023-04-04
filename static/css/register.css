@@ -1,0 +1,104 @@
+* {
+            margin: 0;
+            padding: 0;
+        }
+
+    body {
+            background: url("back3.jpg");
+    }
+
+    .register-container {
+        height: 40%;
+        width: 500px;
+        margin: 100px auto;
+        background: rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+        box-shadow: 0 0 15px 2px rgba(0,0,0,.33);
+        overflow: hidden;
+    }
+
+
+    .register-container .register-title {
+        height: auto;
+        padding: 2%;
+        justify-content: center;
+        text-align: center;
+        color: #add5ff;
+        width: 96%;
+        font-size: 22px;
+        display: block;
+        background-image: linear-gradient(to right, #c979d4, #fa719d);
+        overflow: hidden;
+    }
+
+
+    .register-container .form p {
+        width: 90%;
+        padding-top: 15px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: "Roboto","Lucida Grande","DejaVu Sans","Bitstream Vera Sans",Verdana,Arial,sans-serif;
+        word-break: break-all;
+        flex-flow: wrap;
+    }
+
+    .register-container .form p label {
+        padding-right: 10px;
+        width: 80px;
+        color: azure;
+    }
+
+    .register-container .form p input,
+    .register-container .form p select {
+        clear: both;
+        padding: 8px;
+        width: 60%;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    .register-container .form p span.helptext {
+        color: azure;
+    }
+
+    .register-container .form p .submit-button {
+        border: none;
+        text-decoration: none;
+        font-size: 18px;
+        background-image: linear-gradient(to right, #8fbff3, #d29ef8);
+        color: #eeeeee;
+        padding: 5px 0;
+        text-align: center;
+        display: block;
+        width: 30%;
+        margin: 0 10px 20px;
+        border-radius: 10px;
+    }
+
+
+    .update-container {
+        background: none;
+        border-radius: 0;
+        box-shadow: none;
+        margin: 10px auto;
+    }
+
+
+    .register-container .return-button, .register-container .return-button a {
+        padding: 5px;
+        text-decoration: none;
+        width: 25%;
+        text-align: center;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        font-size: 16px;
+        color: azure;
+    }
+
+

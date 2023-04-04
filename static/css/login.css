@@ -1,0 +1,153 @@
+* {
+        margin: 0;
+        padding: 0;
+    }
+
+    html, body {
+        width: 100%;
+        height: 100%;
+    }
+
+    .main-container {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: url("./back2.jpg") 100% 100% no-repeat;
+    }
+
+    .main-header{
+        height: 45%;
+        text-align: center;
+        font-size: 40px;
+        color: #ffacac;
+    }
+
+    .main-header .main-title{
+        margin-top: 3%;
+    }
+
+    .main-header .welcome-message{
+        font-size: 26px;
+        margin-top: 60px;
+        color: #ffacac;
+    }
+
+    .loginFrame .login-kind{
+        padding-top: 4%;
+        padding-left: 25%;
+        font-size: 30px;
+    }
+
+    .loginFrame .login-kind a{
+        text-decoration: none;
+        border: solid rgba(198 226 255);
+        padding: 10px 30px;
+        color: azure;
+        border-radius: 10px;
+        background-image: linear-gradient(to right, #c979d4, #fa719d);
+    }
+
+    .loginFrame {
+        width: 700px;
+        height: 400px;
+        background: rgba(0, 0, 0, 0.3);
+        /*元素上下左右都居中*/
+        position: fixed;
+        margin: auto;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        border-radius: 10px;
+        padding: 50px 0;
+        box-sizing: border-box;
+        box-shadow: 0 0 5px 5px rgba(198 226 255);
+    }
+
+    .login-kind-title{
+        height: auto;
+        text-align: center;
+        color: azure;
+        font-size: 22px;
+        overflow: hidden;
+    }
+
+    .loginFrame .form .submit-button, .loginFrame .return-button{
+        margin: 5px auto;
+    }
+
+
+    .submit-button input, .submit-button a{
+        border: none;
+        text-decoration: none;
+        font-size: 18px;
+        text-align: center;
+        display: block;
+        color: white;
+        padding: 3px;
+    }
+
+    .return-button a{
+        border: none;
+        text-decoration: none;
+        font-size: 18px;
+        text-align: center;
+        display: block;
+        color: white;
+
+        padding: 3px;
+    }
+
+
+    .loginFrame > div {
+        width: 350px;
+        height: 50px;
+        margin: 40px auto;
+        color: white;
+    }
+
+    .loginFrame > p {
+        text-align: center;
+        color: white;
+        font-size: 25px;
+    }
+
+    .loginFrame > div span {
+        display: inline-block;
+        cursor: pointer;
+    }
+
+    .loginFrame > div input {
+        width: 100%;
+        height: 30px;
+        background: transparent;
+        border: none;
+        border-bottom: 1px solid white;
+        outline: none;
+        color: white;
+
+    }
+
+    .loginFrame .enterBut {
+        width: 200px;
+        height: 50px;
+        border-radius: 50px;
+        background-image: linear-gradient(to right, #c979d4, #fa719d);
+        text-align: center;
+        padding-top: 10px;
+        box-sizing: border-box;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .loginFrame .enterBut:hover {
+        box-shadow: 0 0 10px rgba(0, 0, 0, .5) inset;
+    }
+
+    input::-webkit-input-placeholder { /* WebKit browsers 适配谷歌 */
+        color: #BDCADA;
+    }
+
+    svg {
+        vertical-align: bottom;
+    }
